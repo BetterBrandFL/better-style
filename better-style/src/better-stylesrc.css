@@ -51,9 +51,9 @@ body {
   background: rgb(255, 255, 255);
   border: 1px solid rgb(170, 170, 170);
   border-radius: 8px;
-  box-shadow: 9px 4px 355px 43px rgba(0,0,0,0.3);
--webkit-box-shadow: 9px 4px 355px 43px rgba(0,0,0,0.3);
--moz-box-shadow: 9px 4px 355px 43px rgba(0,0,0,0.3);
+  box-shadow: 9px 4px 895px 43px rgba(0,0,0,0.08);
+-webkit-box-shadow: 9px 4px 895px 43px rgba(0,0,0,0.08);
+-moz-box-shadow: 9px 4px 895px 43px rgba(0,0,0,0.08);
 -webkit-animation:alrmodal-mask-fade-in 0.75s cubic-bezier(0.785, 0.135, 0.150, 0.860) both;animation:alrmodal-mask-fade-in 0.75s cubic-bezier(0.785, 0.135, 0.150, 0.860) both;
 }
 #alr-modal-btn-primary {
