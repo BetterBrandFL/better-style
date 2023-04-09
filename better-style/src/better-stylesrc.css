@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-
-:root {
-  --flowist-colorsys-primary: 37, 87, 204;
-  --flowist-colorsys-on-primary: 255,255,255;
-  --flowist-colorsys-surface: 255,255,255;
-  --flowist-colorsys-on-surface: 0,0,0;
-}
-
-
 * {
   font-family: 'Lato', sans-serif;
 }
