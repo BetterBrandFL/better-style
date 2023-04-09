@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Canvas</title>
+    <script src="better-style/render.js"></script>
+</head>
+<body>
+    <button class="flow-btn-filled" onclick="new modalFrame({
+        infoTitle:'You just opened a modal!',infoText: 'This is a modal.',infoSymbol: 'info',onSecondary: 'modal_close()',onPrimary: 'modal_prog()',secondaryDisabled: false})">Primary Filled</button>
+    
+    <button class="flow-btn-filled" disabled="true">Disabled Filled</button>
+    
+    <button class="flow-btn-outlined">Primary Outlined</button>
+    
+    <button class="flow-btn-outlined" disabled="true">Disabled Outlined</button>
+    
+    <input type="checkbox" class="flow-switch-input">
+    
+    <progress class="flow-progress-circular" indeterminate="true"></progress>
+    
+    <progress class="flow-progress-linear" indeterminate="true"></progress>
+</body>
+</html>
