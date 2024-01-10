@@ -39,8 +39,8 @@ body {
   max-width: 530px;
   justify-content: space-between;
   aspect-ratio: 16/7;
-  background: rgb(255, 255, 255);
-  border: 1px solid rgb(170, 170, 170);
+  background: rgba(var(--flowist-colorsys-on-surface));
+  border: 1px solid rgb(255, 255, 255, 0.6);
   border-radius: 8px;
   box-shadow: 9px 4px 895px 43px rgba(0,0,0,0.08);
 -webkit-box-shadow: 9px 4px 895px 43px rgba(0,0,0,0.08);
@@ -549,3 +549,18 @@ body {
 }
 
 /*Progress Linear*/
+
+
+*::-webkit-scrollbar {
+  width: 7px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgb(var(--flowist-colorsys-on-surface));
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(var(--flowist-colorsys-surface), 0.6);
+  border-radius: 5px;
+  border: 0px none rgb(var(--flowist-colorsys-on-surface));
+}
