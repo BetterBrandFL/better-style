@@ -1,6 +1,6 @@
 :root {
-    --flowist-colorsys-primary: 37, 87, 204;
+    --flowist-colorsys-primary: 0, 123, 255;
     --flowist-colorsys-on-primary: 255,255,255;
-    --flowist-colorsys-surface: 35,35,35;
+    --flowist-colorsys-surface: 0,0,0;
     --flowist-colorsys-on-surface: 255,255,255;
 }
